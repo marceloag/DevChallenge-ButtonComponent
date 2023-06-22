@@ -1,0 +1,24 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.default{
+    @apply bg-default;
+}
+.danger{
+    @apply bg-danger;
+    @apply text-white;
+}
+.primary{
+    @apply bg-primary;
+    @apply text-white;
+}
+.secondary {
+  @apply bg-secondary;
+  @apply text-white;
+}
+.disabled{
+    @apply bg-disabled;
+    @apply text-disabled;
+}
